@@ -1,0 +1,930 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body header {
+  width: 100%;
+  background-color: rgb(233, 150, 122);
+  display: grid;
+  grid-template-columns: 200px auto;
+  grid-row: 1fr;
+  grid-template-areas: "img h1";
+}
+body header a {
+  grid-area: h1;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 60px;
+  font-family: "Lilita One", cursive;
+  font-family: "Lobster", cursive;
+  color: rgb(128, 0, 0);
+}
+body header img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+body header h1 {
+  grid-area: h1;
+  display: flex;
+  justify-content: center;
+  padding-top: 75px;
+  padding-right: 200px;
+  font-size: 60px;
+  font-family: "Lilita One", cursive;
+  font-family: "Lobster", cursive;
+  color: rgb(128, 0, 0);
+}
+body main {
+  width: 100%;
+  height: auto;
+  background-color: lightpink;
+}
+body main .wspp {
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
+body main .wspp img {
+  width: 40px;
+  height: 40px;
+}
+body main p {
+  font-size: 30px;
+  text-indent: 20px;
+  color: coral;
+  font-family: "Lobster", cursive;
+}
+body main div ol li {
+  font-size: 25px;
+  line-height: 40px;
+  text-indent: 20px;
+}
+body main h3 {
+  color: rgb(128, 0, 0);
+  font-family: "Lilita One", cursive;
+  font-family: "Lobster", cursive;
+  display: flex;
+  font-size: 45px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+body main .corazon1 {
+  color: red;
+  animation: corazon1;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-delay: 1s;
+}
+@keyframes corazon1 {
+  0% {
+    color: red;
+  }
+  10% {
+    color: deeppink;
+  }
+  20% {
+    color: darkgreen;
+  }
+  30% {
+    color: chocolate;
+  }
+  40% {
+    color: cornflowerblue;
+  }
+  50% {
+    color: plum;
+  }
+  60% {
+    color: blueviolet;
+  }
+  70% {
+    color: aquamarine;
+  }
+  80% {
+    color: blue;
+  }
+  100% {
+    color: red;
+  }
+}
+body main .corazon2 {
+  color: blue;
+  animation: corazon2;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-delay: 1s;
+}
+@keyframes corazon2 {
+  0% {
+    color: blue;
+  }
+  10% {
+    color: red;
+  }
+  20% {
+    color: deeppink;
+  }
+  30% {
+    color: darkgreen;
+  }
+  40% {
+    color: chocolate;
+  }
+  50% {
+    color: cornflowerblue;
+  }
+  60% {
+    color: plum;
+  }
+  70% {
+    color: blueviolet;
+  }
+  80% {
+    color: aquamarine;
+  }
+  100% {
+    color: blue;
+  }
+}
+body main .corazon3 {
+  color: aquamarine;
+  animation: corazon3;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-delay: 1s;
+}
+@keyframes corazon3 {
+  0% {
+    color: aquamarine;
+  }
+  10% {
+    color: blue;
+  }
+  20% {
+    color: red;
+  }
+  30% {
+    color: deeppink;
+  }
+  40% {
+    color: darkgreen;
+  }
+  50% {
+    color: chocolate;
+  }
+  60% {
+    color: cornflowerblue;
+  }
+  70% {
+    color: plum;
+  }
+  80% {
+    color: blueviolet;
+  }
+  100% {
+    color: aquamarine;
+  }
+}
+body main .corazon4 {
+  color: blueviolet;
+  animation: corazon4;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-delay: 1s;
+}
+@keyframes corazon4 {
+  0% {
+    color: blueviolet;
+  }
+  10% {
+    color: aquamarine;
+  }
+  20% {
+    color: blue;
+  }
+  30% {
+    color: red;
+  }
+  40% {
+    color: deeppink;
+  }
+  50% {
+    color: darkgreen;
+  }
+  60% {
+    color: chocolate;
+  }
+  70% {
+    color: cornflowerblue;
+  }
+  80% {
+    color: plum;
+  }
+  90% {
+    color: blueviolet;
+  }
+}
+body main .corazon5 {
+  color: plum;
+  animation: corazon5;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-delay: 1s;
+}
+@keyframes corazon5 {
+  0% {
+    color: plum;
+  }
+  10% {
+    color: blueviolet;
+  }
+  20% {
+    color: aquamarine;
+  }
+  30% {
+    color: blue;
+  }
+  40% {
+    color: red;
+  }
+  50% {
+    color: deeppink;
+  }
+  60% {
+    color: darkgreen;
+  }
+  70% {
+    color: chocolate;
+  }
+  80% {
+    color: cornflowerblue;
+  }
+  100% {
+    color: plum;
+  }
+}
+body main .corazon6 {
+  color: cornflowerblue;
+  animation: corazon6;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-delay: 1s;
+}
+@keyframes corazon6 {
+  0% {
+    color: cornflowerblue;
+  }
+  10% {
+    color: plum;
+  }
+  20% {
+    color: blueviolet;
+  }
+  30% {
+    color: aquamarine;
+  }
+  40% {
+    color: blue;
+  }
+  50% {
+    color: red;
+  }
+  60% {
+    color: deeppink;
+  }
+  70% {
+    color: darkgreen;
+  }
+  80% {
+    color: chocolate;
+  }
+  100% {
+    color: cornflowerblue;
+  }
+}
+body main .corazon7 {
+  color: chocolate;
+  animation: corazon7;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-delay: 1s;
+}
+@keyframes corazon7 {
+  0% {
+    color: chocolate;
+  }
+  10% {
+    color: cornflowerblue;
+  }
+  20% {
+    color: plum;
+  }
+  30% {
+    color: blueviolet;
+  }
+  40% {
+    color: aquamarine;
+  }
+  50% {
+    color: blue;
+  }
+  60% {
+    color: red;
+  }
+  70% {
+    color: deeppink;
+  }
+  80% {
+    color: darkgreen;
+  }
+  90% {
+    color: chocolate;
+  }
+}
+body main .corazon8 {
+  color: darkgreen;
+  animation: corazon8;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-delay: 1s;
+}
+@keyframes corazon8 {
+  0% {
+    color: darkgreen;
+  }
+  10% {
+    color: chocolate;
+  }
+  20% {
+    color: cornflowerblue;
+  }
+  30% {
+    color: plum;
+  }
+  40% {
+    color: blueviolet;
+  }
+  50% {
+    color: aquamarine;
+  }
+  60% {
+    color: blue;
+  }
+  70% {
+    color: red;
+  }
+  80% {
+    color: deeppink;
+  }
+  100% {
+    color: darkgreen;
+  }
+}
+body main .corazon9 {
+  color: deeppink;
+  animation: corazon9;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-delay: 1s;
+}
+@keyframes corazon9 {
+  0% {
+    color: deeppink;
+  }
+  10% {
+    color: darkgreen;
+  }
+  20% {
+    color: chocolate;
+  }
+  30% {
+    color: cornflowerblue;
+  }
+  40% {
+    color: plum;
+  }
+  50% {
+    color: blueviolet;
+  }
+  60% {
+    color: aquamarine;
+  }
+  70% {
+    color: blue;
+  }
+  80% {
+    color: red;
+  }
+  100% {
+    color: deeppink;
+  }
+}
+body main section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "semi1 semi2 semi3" "semi4 semi5 semi6";
+  gap: 30px;
+  padding-left: 40px;
+  padding-bottom: 30px;
+}
+body main section div img {
+  height: 500px;
+  width: 500px;
+}
+body main section div .semi1 {
+  grid-area: semi1;
+}
+body main section div .semi2 {
+  grid-area: semi1;
+}
+body main section div .semi3 {
+  grid-area: semi1;
+}
+body main section div .semi4 {
+  grid-area: semi1;
+}
+body main section div .semi5 {
+  grid-area: semi1;
+}
+body main section div .semi6 {
+  grid-area: semi1;
+}
+body main h2 {
+  color: rgb(128, 0, 0);
+  font-family: "Lilita One", cursive;
+  font-family: "Lobster", cursive;
+  display: flex;
+  font-size: 45px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+body main .turno {
+  color: rgb(128, 0, 0);
+  font-family: "Lilita One", cursive;
+  font-family: "Lobster", cursive;
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+  padding: 30px;
+  align-items: center;
+  justify-content: center;
+}
+body main .carta {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 50px;
+  grid-template-areas: "carta1 carta2" "carta3 carta4" "carta5 carta5";
+  padding-bottom: 100px;
+}
+body main .carta .carta1 {
+  grid-area: carta1;
+}
+body main .carta .carta1 img {
+  width: 500px;
+  height: 500px;
+}
+body main .carta .carta2 {
+  grid-area: carta2;
+}
+body main .carta .carta2 img {
+  height: 500px;
+  width: 500px;
+}
+body main .carta .carta3 {
+  grid-area: carta3;
+}
+body main .carta .carta3 img {
+  height: 500px;
+  width: 500px;
+}
+body main .carta .carta4 {
+  grid-area: carta4;
+}
+body main .carta .carta4 img {
+  height: 500px;
+  width: 500px;
+}
+body main .carta .carta5 {
+  grid-area: carta5;
+  padding-top: 50px;
+}
+body main .carta a {
+  color: rgb(128, 0, 0);
+  font-family: "Lilita One", cursive;
+  font-family: "Lobster", cursive;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  font-size: 35px;
+  align-items: center;
+  gap: 20px;
+}
+body footer div {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(182, 140, 146);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "social1 social2 social3" "social4 social5 social6";
+  align-items: center;
+}
+body footer div a {
+  font-size: 30px;
+  text-decoration: none;
+  color: rgb(128, 0, 0);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+body footer div a img {
+  width: 30px;
+  height: 30px;
+}
+body footer div .social1 {
+  padding-left: 100px;
+  grid-area: social1;
+}
+body footer div .social2 {
+  grid-area: social2;
+}
+body footer div .social3 {
+  grid-area: social3;
+}
+body footer div .social4 {
+  padding-left: 100px;
+  grid-area: social4;
+}
+body footer div .social5 {
+  grid-area: social5;
+}
+body footer div .social6 {
+  grid-area: social6;
+}
+
+@media (max-width: 1440px) {
+  body {
+    background-color: rgb(182, 140, 146);
+  }
+  body main .carta {
+    padding-left: 40px;
+  }
+  body main .carta div a img {
+    width: 500px;
+    height: 500px;
+  }
+  body main .semi .semi1 img {
+    width: 400px;
+    height: 400px;
+  }
+  body main .semi .semi2 img {
+    width: 400px;
+    height: 400px;
+  }
+  body main .semi .semi3 img {
+    width: 400px;
+    height: 400px;
+  }
+  body main .semi .semi4 img {
+    width: 400px;
+    height: 400px;
+  }
+  body main .semi .semi5 img {
+    width: 400px;
+    height: 400px;
+  }
+  body main .semi .semi6 img {
+    width: 400px;
+    height: 400px;
+  }
+  body main footer div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  body main footer div .social1 {
+    padding-left: 60px;
+  }
+  body main footer div .social2 {
+    padding-left: 60px;
+  }
+  body main footer div .social3 {
+    padding-left: 60px;
+  }
+  body main footer div .social4 {
+    padding-left: 60px;
+  }
+  body main footer div .social5 {
+    padding-left: 60px;
+  }
+  body main footer div .social6 {
+    padding-left: 60px;
+  }
+}
+@media (max-width: 1024px) {
+  body main {
+    width: 100%;
+  }
+  body main h2 {
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+  body main .carta {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 100px;
+    grid-template-areas: "carta1 carta2" "carta3 carta4" "carta5 carta5";
+    padding-bottom: 50px;
+  }
+  body main .carta .carta1 {
+    grid-area: carta1;
+  }
+  body main .carta .carta1 img {
+    height: 400px;
+    width: 400px;
+  }
+  body main .carta .carta2 {
+    grid-area: carta2;
+  }
+  body main .carta .carta2 img {
+    height: 400px;
+    width: 400px;
+  }
+  body main .carta .carta3 {
+    grid-area: carta3;
+    padding-top: 15px;
+  }
+  body main .carta .carta3 img {
+    height: 400px;
+    width: 400px;
+  }
+  body main .carta .carta4 {
+    grid-area: carta4;
+    padding-top: 15px;
+  }
+  body main .carta .carta4 img {
+    height: 400px;
+    width: 400px;
+  }
+  body main .carta .carta5 {
+    grid-area: carta5;
+  }
+  body main h3 {
+    font-size: 35px;
+  }
+  body main section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "semi1 semi2" "semi3 semi4" "semi5 semi6";
+  }
+  footer div a {
+    font-size: 30px;
+  }
+  footer div a img {
+    height: 30px;
+    width: 30px;
+  }
+}
+@media (max-width: 768px) {
+  body header {
+    height: 150px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px auto;
+    grid-row: 1fr;
+    grid-template-areas: "img h1";
+  }
+  body header img {
+    grid-area: img;
+    height: 150px;
+    width: 150px;
+  }
+  body header h1 {
+    grid-area: h1;
+    padding-top: 40px;
+    padding-left: 50px;
+  }
+  body main {
+    width: 100%;
+  }
+  body main h3 {
+    font-size: 20px;
+  }
+  body main p {
+    width: 100%;
+  }
+  body main .carta {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 50px;
+    grid-template-areas: "carta1" "carta2" "carta3" "carta4" "carta5";
+    padding-left: 0px;
+  }
+  body main .carta .carta1 {
+    font-size: 30px;
+  }
+  body main .carta .carta1 img {
+    height: 300px;
+    width: 300px;
+  }
+  body main .carta .carta2 {
+    font-size: 30px;
+  }
+  body main .carta .carta2 img {
+    height: 300px;
+    width: 300px;
+  }
+  body main .carta .carta3 {
+    padding-top: 15px;
+    font-size: 30px;
+  }
+  body main .carta .carta3 img {
+    height: 300px;
+    width: 300px;
+  }
+  body main .carta .carta4 {
+    padding-top: 15px;
+    font-size: 30px;
+  }
+  body main .carta .carta4 img {
+    height: 300px;
+    width: 300px;
+  }
+  body main .carta .carta5 {
+    padding-top: 25px;
+  }
+  body main h2 {
+    font-size: 35px;
+  }
+  body main div p {
+    font-size: 25px;
+  }
+  body main div ol li {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  body main h3 {
+    font-size: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  body main .semi {
+    width: 100%;
+    padding-top: 0px;
+  }
+  body main .semi .semi1 img {
+    width: 300px;
+    height: 300px;
+  }
+  body main .semi .semi2 img {
+    width: 300px;
+    height: 300px;
+  }
+  body main .semi .semi3 img {
+    width: 300px;
+    height: 300px;
+  }
+  body main .semi .semi4 img {
+    width: 300px;
+    height: 300px;
+  }
+  body main .semi .semi5 img {
+    width: 300px;
+    height: 300px;
+  }
+  body main .semi .semi6 img {
+    width: 300px;
+    height: 300px;
+  }
+  body footer {
+    height: 100px;
+  }
+  body footer div a {
+    font-size: 22px;
+    padding: 0px;
+  }
+  body footer div a img {
+    height: 25px;
+    margin-top: 2px;
+    width: 25px;
+  }
+  body footer div .social1, body footer div .social2, body footer div .social3, body footer div .social4, body footer div .social5, body footer div .social6 {
+    display: flex;
+    padding-left: 50px;
+  }
+}
+@media (max-width: 425px) {
+  body {
+    display: grid;
+  }
+  body main .semi {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "semi1" "semi2" "semi3" "semi4" "semi5" "semi6";
+  }
+  body main .semi .semi1 {
+    display: flex;
+    padding: 0px;
+    justify-content: center;
+  }
+  body main .semi .semi1 img {
+    height: 400px;
+    width: 400px;
+  }
+  body main .semi .semi2 {
+    display: flex;
+    padding: 0px;
+    justify-content: center;
+  }
+  body main .semi .semi2 img {
+    height: 400px;
+    width: 400px;
+  }
+  body main .semi .semi3 {
+    display: flex;
+    padding: 0px;
+    justify-content: center;
+  }
+  body main .semi .semi3 img {
+    height: 400px;
+    width: 400px;
+  }
+  body main .semi .semi4 {
+    display: flex;
+    padding: 0px;
+    justify-content: center;
+  }
+  body main .semi .semi4 img {
+    height: 400px;
+    width: 400px;
+  }
+  body main .semi .semi5 {
+    display: flex;
+    padding: 0px;
+    justify-content: center;
+  }
+  body main .semi .semi5 img {
+    height: 400px;
+    width: 400px;
+  }
+  body main .semi .semi6 {
+    display: flex;
+    padding: 0px;
+    justify-content: center;
+  }
+  body main .semi .semi6 img {
+    height: 400px;
+    width: 400px;
+  }
+  body footer div {
+    width: auto;
+    height: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "social1 social2" "social3 social4" "social5 social6";
+  }
+  body footer div .social1 {
+    font-size: 25px;
+    grid-area: social1;
+  }
+  body footer div .social2 {
+    font-size: 25px;
+    grid-area: social2;
+  }
+  body footer div .social3 {
+    font-size: 25px;
+    grid-area: social3;
+  }
+  body footer div .social4 {
+    font-size: 25px;
+    grid-area: social4;
+  }
+  body footer div .social5 {
+    font-size: 25px;
+    grid-area: social5;
+  }
+  body footer div .social6 {
+    font-size: 25px;
+    grid-area: social6;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
